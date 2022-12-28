@@ -5,13 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>Clase Git</title>
+    <title>Formulario de Login</title>
     
 
 </head>
 <body>
-    <h1>Curso de Git</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae at aliquid eius corporis exercitationem?</p>
-    
+   <div class="contenedor">
+    <h2>Login</h2>
+    <form id="forma" method="post" enctype="text/plain">
+        <div class="elemento">
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" name="usuario" required="true"/>
+        </div>
+        <div class="elemento">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required="true"/>
+        </div>
+        <div class="elemento">
+            <input type="submit" value="Enviar"/>
+        </div>
+    </form>
+   </div>
 </body>
 </html>
